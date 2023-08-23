@@ -1,0 +1,29 @@
+.container__content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.content__cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 60%;
+  height: 40%;
+  margin-top: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.2);
+}
+
+.content__title {
+  margin-top: 10px;
+}
+
+.content__description {
+  margin-top: 20px;
+  width: 80%;
+  color: gray;
+}
