@@ -5,7 +5,7 @@
       style="background-image: url('{{ photoCover }}')"
     ></div>
     <div class="small-card__title">
-      <a href="#">
+      <a [routerLink]="['content', articleId]">
         <h1>{{ cardTitle }}</h1>
       </a>
     </div>
